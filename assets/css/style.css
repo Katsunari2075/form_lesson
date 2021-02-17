@@ -17,3 +17,76 @@
   border-radius: 4px;
   box-shadow: 0 0 4px 0 rgb(0 0 0 / 18%);
 }
+
+.form-title {
+  color: #545658;
+  font-size: 24px;
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  margin-top: 24px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.column:last-child {
+  margin-left: 8px;
+}
+
+.btn {
+  transition: .3s;
+  padding: 13px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-init {
+  text-decoration: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.facebook {
+  color: #fff;
+  background-color: #3b5999;
+  border-color: #3b5999;
+}
+
+.facebook:hover {
+  background-color: #344e87;
+  border-color: transparent;
+}
+
+.google {
+  color: #dd4b39;
+  background-color: #fff;
+}
+
+.google:hover {
+  background-color: #f7f7f7;
+}
+
+.supplement-text {
+  text-align: center;
+}
+
+.default-text {
+  color: #949697;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+
+
