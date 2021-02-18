@@ -88,5 +88,33 @@
   margin-top: 8px;
 }
 
+.default-text:last-child {
+  margin: 0;
+}
+
+.devider {
+  margin: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.devider::before {
+  width: 100%;
+  height: 1px;
+  background-color: #ececec;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.devider p {
+  padding: 0 10px;
+  background-color: #fff;
+  display: inline-block;
+  position: relative;
+}
+
 
 
