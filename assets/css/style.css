@@ -173,6 +173,54 @@
   box-shadow: 0 0 0 2px rgba(1, 191, 189, .1);
 }
 
+.gender-contents {
+  display: flex;
+  color: #545658;
+  font-size: 16px;
+}
 
+.gender-content {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.gender-content:first-child {
+  margin-left: 0;
+}
+
+.gender-content span {
+  padding: 3px 3px 3px 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.gender-content span::before {
+  content: "";
+  transform: translateY(-50%);
+  height: 14px;
+  width: 14px;
+  background-color: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.gender-input:checked + span::after {
+  content: "";
+  height: 8px;
+  width: 8px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #01bfbd;
+  position: absolute;
+  left: 4px;
+  top: 50%;
+}
+
+.gender-content input {
+  display: none;
+}
 
 
