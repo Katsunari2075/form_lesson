@@ -16,6 +16,7 @@
   padding: 48px 64px;
   border-radius: 4px;
   box-shadow: 0 0 4px 0 rgb(0 0 0 / 18%);
+  margin-bottom: 32px;
 }
 
 .form-title {
@@ -314,5 +315,27 @@
   color: #01a6a4;
 }
 
+.link-color:hover {
+  color: #01bfbd;
+}
 
+.foot-part {
+  text-align: center;
+}
+
+.foot-part p, .resend-mail {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.foot-part a:hover {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ececec;
+  border-bottom-color: #01bfbd;
+}
+
+.resend-mail {
+  display: inline-block;
+}
 
