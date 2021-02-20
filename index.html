@@ -56,39 +56,65 @@
               <p class="label-text full-width">性別</p>
 
               <div class="gender-contents">
+
                 <label for="man" class="gender-content">
                   <input type="radio" name="gender" id="man" class="gender-input">
                   <span>男性</span>
                 </label>
+
                 <label for="woman" class="gender-content">
                   <input type="radio" name="gender" id="woman" class="gender-input">
                   <span>女性</span>
                 </label>
+
                 <label for="other" class="gender-content">
                   <input type="radio" name="gender" id="other" class="gender-input">
                   <span>その他</span>
                 </label>
+
               </div>
 
             </div>
             <!-- 性別 -->
 
             <!-- 出身地 -->
-            <div class="row birthplace"></div>
+            <div class="row birthplace half-width">
+              <p class="label-text">出身</p>
+              <div class="select-area">
+                <select name="birthplace" id="birthplace" class="input-init input-area birthplace-input">
+                  <option value="東京">東京</option>
+                  <option value="千葉">千葉</option>
+                  <option value="埼玉">埼玉</option>
+                  <option value="神奈川">神奈川</option>
+                </select>
+              </div>
+            </div>
             <!-- 出身地 -->
 
             <!-- Eメール -->
-            <div class="row email"></div>
+            <div class="row email">
+              <label for="email" class="label-text">Eメール<span class="alert">※</span></label>
+              <input type="email" class="input-init input-area full-width" name="email" id="email" placeholder="ex) hoge@example.com">
+            </div>
             <!-- Eメール -->
 
             <!-- 電話番号 -->
-            <div class="row tel"></div>
+            <div class="row tel">
+              <label for="tel" class="label-text">電話番号<span class="alert">※</span></label>
+              <input type="tel" class="input-init input-area full-width" name="tel" id="tel" placeholder="ex) 09012345678">
+            </div>
             <!-- 電話番号 -->
 
             <!-- パスワード -->
-            <div class="row password"></div>
+            <div class="row password">
+              <label for="password" class="label-text">パスワード<span class="alert">※</span></label>
+              <input type="password" class="input-init input-area full-width" name="password" id="password">
+            </div>
             
-            <div class="row password"></div>
+            <div class="row password">
+              <label for="password-confirmation" class="label-text">パスワード(確認用)<span class="alert">※</span></label>
+              <input type="password" class="input-init input-area full-width" name="password-confirmation" id="password-confirmation">
+            </div>
             <!-- パスワード -->
 
             <!-- コース -->
