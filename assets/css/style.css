@@ -219,7 +219,7 @@
   top: 50%;
 }
 
-.gender-content input {
+.gender-content input, .course input {
   display: none;
 }
 
@@ -245,5 +245,45 @@
   border-color: #d9d9d9;
   box-shadow: initial;
 }
+
+.course-option {
+  margin-bottom: 10px;
+  color: #545658;
+  font-size: 16px;
+}
+
+.course-option:last-child {
+  margin-bottom: 0;
+}
+
+.course-option-text {
+  padding-left: 25px;
+  position: relative;
+}
+
+.course-option-text::before {
+  content: "";
+  height: 15px;
+  width: 15px;
+  margin-top: -8px;
+  border: 1px solid #d9d9d9;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.course-option input:checked + .course-option-text::after {
+  content: "";
+  transform: rotate(45deg);
+  height: 16px;
+  width: 8px;
+  margin-top: -12px;
+  border-right: 3px solid #01bfbd;
+  border-bottom: 3px solid #01bfbd;
+  position: absolute;
+  left: 6px;
+  top: 50%;
+}
+
 
 
